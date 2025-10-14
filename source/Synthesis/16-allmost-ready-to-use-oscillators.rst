@@ -43,7 +43,7 @@
     {
             int i = (int) phase;
     
-            phase += (sampleRate/(float TableSize)/frequency;
+            phase += (sampleRate/(float)TableSize)/frequency;
     
             if(phase >= (float)TableSize)
                     phase -= (float)TableSize;
