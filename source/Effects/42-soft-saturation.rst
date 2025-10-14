@@ -16,7 +16,7 @@ Soft saturation
     :linenos:
     :caption: code
 
-    x < a:
+    x <= a:
       f(x) = x
     x > a:
       f(x) = a + (x-a)/(1+((x-a)/(1-a))^2)
